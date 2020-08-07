@@ -6317,7 +6317,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524185, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: m_IsActive
@@ -6332,42 +6332,42 @@ PrefabInstance:
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524234, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524256, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524263, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524267, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524270, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524272, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524280, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 1375147331010524281, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: m_Name
@@ -6397,7 +6397,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     - target: {fileID: 6713291141761818065, guid: ba083ce14ba06584d8dfcb44faa2d15a,
         type: 3}
       propertyPath: m_IsActive
@@ -6407,7 +6407,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shaker
       value: 
-      objectReference: {fileID: 985717312}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba083ce14ba06584d8dfcb44faa2d15a, type: 3}
 --- !u!1001 &8496188463698062711
