@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528c900f8a6e9314391ffef1e9ab23e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  environmentObj: {fileID: 2126402628298495881, guid: 2ad15609db611f64f925968dd6767f13,
+  environmentObj: {fileID: 6146997381931140004, guid: f18d07da6b49d804a855f841613ccbd4,
     type: 3}
   groundObj: {fileID: 3183102941671815373, guid: 016e8ba2c650087419cde39fcc28c5dc,
     type: 3}
