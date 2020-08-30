@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5915613341639260877}
   - component: {fileID: 2254583115391358734}
   - component: {fileID: 1433779433338111026}
+  - component: {fileID: 436385413153250090}
   m_Layer: 0
   m_Name: stairs.002
-  m_TagString: Untagged
+  m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &436385413153250090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358765832130259805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5543852910939878438, guid: 577402f636618f747bb870b9d697b8dd, type: 3}
 --- !u!1 &2137724634267614826
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,9 +359,10 @@ GameObject:
   - component: {fileID: 4657404476792986101}
   - component: {fileID: 1112696026057303828}
   - component: {fileID: 3667694495103639566}
+  - component: {fileID: 8318663719833729519}
   m_Layer: 0
   m_Name: stairs.001
-  m_TagString: Untagged
+  m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -412,6 +428,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8318663719833729519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821005760905114067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4667166186235472434, guid: 577402f636618f747bb870b9d697b8dd, type: 3}
 --- !u!1 &5282415518500740253
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,9 +896,10 @@ GameObject:
   - component: {fileID: 8028658708635563362}
   - component: {fileID: 7918249866996413429}
   - component: {fileID: 3400874771420578592}
+  - component: {fileID: 7395027410038658894}
   m_Layer: 0
   m_Name: stairs.003
-  m_TagString: Untagged
+  m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -934,6 +965,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7395027410038658894
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8626509297959301686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3989222600071111605, guid: 577402f636618f747bb870b9d697b8dd, type: 3}
 --- !u!1 &8720505123609231927
 GameObject:
   m_ObjectHideFlags: 0
