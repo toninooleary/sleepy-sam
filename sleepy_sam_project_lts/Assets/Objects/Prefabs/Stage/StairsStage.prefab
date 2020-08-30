@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1433779433338111026}
   - component: {fileID: 436385413153250090}
   m_Layer: 0
-  m_Name: stairs.002
+  m_Name: Stairs.002
   m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 8479808821637470102}
   - component: {fileID: 6334646983641186527}
   m_Layer: 0
-  m_Name: banister.002
+  m_Name: Banister.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -323,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2370910252029551020}
   m_Layer: 0
-  m_Name: stairs
+  m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 3667694495103639566}
   - component: {fileID: 8318663719833729519}
   m_Layer: 0
-  m_Name: stairs.001
+  m_Name: Stairs.001
   m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432248759398097574}
   m_Layer: 0
-  m_Name: stairs_stage
+  m_Name: StairsStage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 2187476451872079714}
   - component: {fileID: 869174257470585477}
   m_Layer: 0
-  m_Name: banister.001
+  m_Name: Banister.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +898,7 @@ GameObject:
   - component: {fileID: 3400874771420578592}
   - component: {fileID: 7395027410038658894}
   m_Layer: 0
-  m_Name: stairs.003
+  m_Name: Stairs.003
   m_TagString: wallTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

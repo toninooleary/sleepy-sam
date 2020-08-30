@@ -22,9 +22,9 @@ public class StageSpawner : MonoBehaviour
     void Start(){
         shaking = GameObject.FindGameObjectWithTag("ShakeScreen").GetComponent<ScoreCameraShake>();
         
-        environmentQueue.Enqueue(GameObject.Find("Environment"));
-        environmentQueue.Enqueue(GameObject.Find("Environment2"));
-        currentObj = GameObject.Find("Environment2");
+        environmentQueue.Enqueue(GameObject.Find("StartingStage"));
+        environmentQueue.Enqueue(GameObject.Find("ColumnsStage"));
+        currentObj = GameObject.Find("ColumnsStage");
     }
 
     void OnTriggerEnter(Collider other){

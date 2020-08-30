@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ragdollMovement : MonoBehaviour {
+public class RagdollMovement : MonoBehaviour {
 	
 	private Rigidbody rb;
 	public float upThrust;

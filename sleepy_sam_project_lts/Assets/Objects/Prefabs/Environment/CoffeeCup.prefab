@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2673100513886237855}
   - component: {fileID: 2673100513886237854}
   m_Layer: 0
-  m_Name: cup
+  m_Name: Cup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2673100514639991075}
   - component: {fileID: 2673100514639991074}
   m_Layer: 0
-  m_Name: lid
+  m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6945243385503825975}
   m_Layer: 0
-  m_Name: coffee_cup
+  m_Name: CoffeeCup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

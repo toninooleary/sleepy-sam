@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 891910908}
   - component: {fileID: 891910907}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 1797520765}
   - component: {fileID: 1797520764}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 5190078471994746226}
   - component: {fileID: 8478938794880068900}
   m_Layer: 0
-  m_Name: burner.003
+  m_Name: Burner.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 7440639780456606904}
   - component: {fileID: 4581525339510647724}
   m_Layer: 0
-  m_Name: nob.004
+  m_Name: Nob.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 6878972961168542982}
   - component: {fileID: 4182964058667661364}
   m_Layer: 0
-  m_Name: nob.001
+  m_Name: Nob.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 6138663421066922704}
   - component: {fileID: 8981935643622682113}
   m_Layer: 0
-  m_Name: burner.004
+  m_Name: Burner.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 8212493601972769786}
   - component: {fileID: 8191240192449735119}
   m_Layer: 0
-  m_Name: base
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1231,7 +1231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5243050721710748462}
   m_Layer: 0
-  m_Name: cooker
+  m_Name: Cooker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1311,7 +1311,7 @@ GameObject:
   - component: {fileID: 6808564358256573321}
   - component: {fileID: 6673096858374334603}
   m_Layer: 0
-  m_Name: nob.002
+  m_Name: Nob.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 122005721814918419}
   - component: {fileID: 5836755236669228050}
   m_Layer: 0
-  m_Name: cooker_stage
+  m_Name: CookerStage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 9006270454134979004}
   - component: {fileID: 599941287738609823}
   m_Layer: 0
-  m_Name: nob.003
+  m_Name: Nob.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1498,7 +1498,7 @@ GameObject:
   - component: {fileID: 1757592286825861265}
   - component: {fileID: 6282510914975866009}
   m_Layer: 0
-  m_Name: burner.002
+  m_Name: Burner.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1601,7 +1601,7 @@ GameObject:
   - component: {fileID: 4640732160428500089}
   - component: {fileID: 3790931795619773051}
   m_Layer: 0
-  m_Name: burner.001
+  m_Name: Burner.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 3557437604226265869}
   - component: {fileID: 3587610524444611803}
   m_Layer: 0
-  m_Name: frame
+  m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

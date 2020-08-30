@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6357038821444327558}
   - component: {fileID: 6357038821444327559}
   m_Layer: 0
-  m_Name: monitor
+  m_Name: Monitor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 6357038822724111206}
   - component: {fileID: 6357038822724111205}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: SpotLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 5411302442918460373}
   - component: {fileID: 4756198248928960063}
   m_Layer: 0
-  m_Name: emission_plane
+  m_Name: EmissionPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class colliding : MonoBehaviour
+public class Colliding : MonoBehaviour
 {
-	public cameraShake shaker;
+	public DeathCameraShake shaker;
 	public GameObject deathParticles; 
 	//private GameObject objectHit;
 	bool isDead = false;
@@ -22,22 +22,22 @@ public class colliding : MonoBehaviour
 			}
 
 			//if the colliding script is disabled, then the camera shake script won't be called.
-			if (GameObject.Find("Head").GetComponent<colliding>().enabled == true){
+			if (GameObject.Find("Head").GetComponent<Colliding>().enabled == true){
 				StartCoroutine(shaker.Shake(0.13f, 0.25f));
 			}
 
 			setIsDeath();
 
 			foreach (GameObject objects in GameObject.FindGameObjectsWithTag("standardBodyPart")){
-				objects.GetComponent<colliding>().enabled = false;
+				objects.GetComponent<Colliding>().enabled = false;
 			}
 
 			//look for every object with another tag? it only searches for a movingbodyparttag.
 			foreach (GameObject objects in GameObject.FindGameObjectsWithTag("movingBodyPart")){
-				if (objects.GetComponent<ragdollMovement>().enabled == true){
-					objects.GetComponent<ragdollMovement>().enabled = false;
+				if (objects.GetComponent<RagdollMovement>().enabled == true){
+					objects.GetComponent<RagdollMovement>().enabled = false;
 				}
-				objects.GetComponent<colliding>().enabled = false;
+				objects.GetComponent<Colliding>().enabled = false;
 			}
 		}
 	}
@@ -45,13 +45,13 @@ public class colliding : MonoBehaviour
 	public void setIsDeath(){		
 		int increment = 0;
 		foreach (GameObject objects in GameObject.FindGameObjectsWithTag("standardBodyPart")){
-			if (objects.GetComponent<colliding>().getIsDeath() == true){
+			if (objects.GetComponent<Colliding>().getIsDeath() == true){
 				increment++;
 			}
 		}
 
 		foreach (GameObject objects in GameObject.FindGameObjectsWithTag("movingBodyPart")){
-			if (objects.GetComponent<colliding>().getIsDeath() == true){
+			if (objects.GetComponent<Colliding>().getIsDeath() == true){
 				increment++;
 			}
 		}

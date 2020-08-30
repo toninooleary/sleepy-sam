@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6447601141678952576}
   - component: {fileID: 6447601141678952577}
   m_Layer: 0
-  m_Name: phone
+  m_Name: Phone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 7063218683383759808}
   - component: {fileID: 6447601141906934522}
   m_Layer: 0
-  m_Name: cylinder
+  m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6841181614878760939}
   m_Layer: 0
-  m_Name: telephone 1
+  m_Name: Telephone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 6447601142192502310}
   - component: {fileID: 6447601142192502311}
   m_Layer: 0
-  m_Name: boxcollider
+  m_Name: BoxCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
