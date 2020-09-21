@@ -17,12 +17,12 @@ public class FlameSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bottomFlame = GameObject.Find("BottomFlameParticles");
-        topFlame = GameObject.Find("TopFlameParticles");
-        spawnTL = GameObject.Find("FlameSpawnPointTL");
-        spawnBL = GameObject.Find("FlameSpawnPointBL");
-        spawnTR = GameObject.Find("FlameSpawnPointTR");
-        spawnBR = GameObject.Find("FlameSpawnPointBR");
+        bottomFlame = this.transform.Find("BottomFlameParticles").gameObject;
+        topFlame = this.transform.Find("TopFlameParticles").gameObject;
+        spawnTL = this.transform.Find("FlameSpawnPointTL").gameObject;
+        spawnBL = this.transform.Find("FlameSpawnPointBL").gameObject;
+        spawnTR = this.transform.Find("FlameSpawnPointTR").gameObject;
+        spawnBR = this.transform.Find("FlameSpawnPointBR").gameObject;
         //spawns flames on the left or tight
         int currentSide = UnityEngine.Random.Range(0, 2);
         Debug.Log(currentSide);

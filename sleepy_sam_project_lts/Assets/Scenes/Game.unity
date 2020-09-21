@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &378567858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3183102941671815373, guid: 016e8ba2c650087419cde39fcc28c5dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 546543595}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &546543595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -203,6 +209,7 @@ GameObject:
   - component: {fileID: 779563362}
   - component: {fileID: 779563361}
   - component: {fileID: 779563365}
+  - component: {fileID: 779563360}
   m_Layer: 0
   m_Name: SpawnNextStageTrigger
   m_TagString: Untagged
@@ -210,6 +217,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &779563360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779563359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528c900f8a6e9314391ffef1e9ab23e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environmentObj: {fileID: 8089125581959970096, guid: 93752539ebdde454390bfa3a374f98e9,
+    type: 3}
+  groundObj: {fileID: 378567858}
 --- !u!65 &779563361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -291,7 +313,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779563359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ac8de0e8073cbd4eb4ad90e7be64fdd, type: 3}
   m_Name: 
@@ -354,6 +376,10 @@ MonoBehaviour:
     size: 3
   - tag: windowsStage
     prefab: {fileID: 2126402628298495881, guid: 2ad15609db611f64f925968dd6767f13,
+      type: 3}
+    size: 3
+  - tag: cookerStage
+    prefab: {fileID: 8089125581959970096, guid: 93752539ebdde454390bfa3a374f98e9,
       type: 3}
     size: 3
 --- !u!4 &1112770186
