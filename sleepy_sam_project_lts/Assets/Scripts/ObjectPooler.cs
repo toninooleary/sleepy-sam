@@ -6,6 +6,11 @@ using System.Text.RegularExpressions;
 
 public class ObjectPooler : MonoBehaviour
 {
+    // Note:
+    // num of active stages must be atleast the same size as the size as the stage object pool. 
+    // column obstacles: 4 * number of column stages in pool
+    // stages: num of stages should be 3
+    
     [System.Serializable]
     public class Pool 
     {
@@ -19,8 +24,6 @@ public class ObjectPooler : MonoBehaviour
     public Dictionary<string, Queue<GameObject>> poolDictionary;
 
     private List<string> stageTags;
-
-    // num of active stages must be atleast the same size as the size of a stage object pool. 
 
     #region Singleton Instance
     public static ObjectPooler Instance; 
