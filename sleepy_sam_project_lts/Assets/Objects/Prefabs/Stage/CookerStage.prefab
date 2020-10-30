@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 5824337375920799050}
   - component: {fileID: 1339543951447865070}
   m_Layer: 0
-  m_Name: DeathBoundary2
+  m_Name: DeathBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1372,7 +1372,7 @@ GameObject:
   - component: {fileID: 6100219125998228744}
   - component: {fileID: 7187598722162186568}
   m_Layer: 0
-  m_Name: DeathBoundary1
+  m_Name: DeathBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

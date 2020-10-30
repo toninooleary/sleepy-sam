@@ -13,6 +13,9 @@ public class FlameSwitcher : MonoBehaviour
     GameObject topFlame;
     int currentSide;
     private float timer;
+    
+    GameObject bottomDeathBoundary;
+    GameObject topDeathBoundary;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class FlameSwitcher : MonoBehaviour
         spawnBL = this.transform.Find("FlameSpawnPointBL").gameObject;
         spawnTR = this.transform.Find("FlameSpawnPointTR").gameObject;
         spawnBR = this.transform.Find("FlameSpawnPointBR").gameObject;
+        bottomDeathBoundary = bottomFlame.transform.Find("DeathBoundary").gameObject;
+        topDeathBoundary = topFlame.transform.Find("DeathBoundary").gameObject;
         //spawns flames on the left or tight
         int currentSide = UnityEngine.Random.Range(0, 2);
         Debug.Log(currentSide);
@@ -41,6 +46,11 @@ public class FlameSwitcher : MonoBehaviour
             topFlame.GetComponent<ParticleSystem>().Play();
             timer = 0;
         }
+        if (timer >= 4.4)
+        {
+            bottomDeathBoundary.SetActive(false);
+            topDeathBoundary.SetActive(false);
+        }
     }
 
     // called to move the flame to the left or right of the stage
@@ -57,5 +67,7 @@ public class FlameSwitcher : MonoBehaviour
             bottomFlame.transform.position = spawnBR.transform.position;
             topFlame.transform.position = spawnTR.transform.position;
         }
+        bottomDeathBoundary.SetActive(true);
+        topDeathBoundary.SetActive(true);
     }
 }
