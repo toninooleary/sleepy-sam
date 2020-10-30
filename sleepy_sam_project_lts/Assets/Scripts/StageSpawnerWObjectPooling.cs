@@ -35,8 +35,8 @@ public class StageSpawnerWObjectPooling : MonoBehaviour
                 GameObject obj = (GameObject)stageQueue.Dequeue();
                 obj.SetActive(false);
                 // move ground object
-                //Transform groundSpawnPoint = GameObject.Find("/" + ((GameObject)stageQueue.Peek()).name + "/GroundSpawnPoint").transform;
-                //ground.transform.position = groundSpawnPoint.position;
+                Transform groundSpawnPoint = ((GameObject)stageQueue.Peek()).transform.Find("GroundSpawnPoint");
+                ground.transform.position = groundSpawnPoint.position;
             }
             //move environment spawner trigger.
             Transform triggerSpawnPoint = currentObj.transform.Find("TriggerSpawnPoint");
