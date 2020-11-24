@@ -4,33 +4,22 @@ public class WindowSpawnerUpdated : MonoBehaviour
 {
 
     public Transform[] spawningPoints;
+    ObjectPooler objectPooler;
 
-    public GameObject window;
-    private GameObject windowSpawned;
-    public int numOfWindows;
-    public int minNumOfWindows;
-
-    // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
-
+        objectPooler = ObjectPooler.Instance;
     }
 
     private void OnEnable()
     {
-        for (int i = 0; i <= spawningPoints.Length; i++)
+        for (int i = 0; i <= spawningPoints.Length - 1; i++)
         {
             int spawnProbability = Random.Range(0, 10);
-            if (spawnProbability <= 3)
+            if (spawnProbability <= 2)
             {
-                windowSpawned = Instantiate(window, spawningPoints[i].position, window.transform.rotation);
-                windowSpawned.transform.SetParent(gameObject.transform);
+                objectPooler.spawnFromPool("Window", spawningPoints[i].position, spawningPoints[i].rotation);
             }
         }
-    }
-
-    private void OnDisable()
-    {
-        
     }
 }

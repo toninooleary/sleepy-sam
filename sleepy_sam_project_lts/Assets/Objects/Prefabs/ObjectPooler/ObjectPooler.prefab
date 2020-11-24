@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5065539981122907607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5065539981122907605}
+  - component: {fileID: 5065539981122907606}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5065539981122907605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065539981122907607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5065539981122907606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065539981122907607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60480cd269f97e642ada83cfdc081920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: StairsStage
+    prefab: {fileID: 6146997381931140004, guid: f18d07da6b49d804a855f841613ccbd4,
+      type: 3}
+    size: 3
+  - tag: ColumnsStage
+    prefab: {fileID: 4259065497922257112, guid: ce641a858bfbacf439457d9442658f94,
+      type: 3}
+    size: 3
+  - tag: WindowsStage
+    prefab: {fileID: 1204659752866268323, guid: 764649357238fcc44983acb8991544c5,
+      type: 3}
+    size: 3
+  - tag: CookerStage
+    prefab: {fileID: 8089125581959970096, guid: 93752539ebdde454390bfa3a374f98e9,
+      type: 3}
+    size: 3
+  - tag: Window
+    prefab: {fileID: 7926103239682908053, guid: 1410107b30376404fa26a8adf90b5265,
+      type: 3}
+    size: 105
