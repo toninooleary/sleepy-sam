@@ -3,23 +3,25 @@
 public class WindowSpawnerUpdated : MonoBehaviour
 {
 
-    public Transform[] spawningPoints;
-    ObjectPooler objectPooler;
-
-    public void Start()
-    {
-        objectPooler = ObjectPooler.Instance;
-    }
+    public GameObject[] windows;
 
     private void OnEnable()
     {
-        for (int i = 0; i <= spawningPoints.Length - 1; i++)
+        for (int i = 0; i <= windows.Length - 1; i++)
         {
             int spawnProbability = Random.Range(0, 10);
             if (spawnProbability <= 2)
             {
-                objectPooler.spawnFromPool("Window", spawningPoints[i].position, spawningPoints[i].rotation);
+                windows[i].SetActive(true);
             }
+        }
+    }
+
+    private void OnDisable()
+    {
+        foreach (GameObject obj in windows)
+        {
+            obj.SetActive(false);
         }
     }
 }

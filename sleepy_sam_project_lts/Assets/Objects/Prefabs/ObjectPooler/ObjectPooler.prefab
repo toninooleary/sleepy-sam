@@ -60,7 +60,3 @@ MonoBehaviour:
     prefab: {fileID: 8089125581959970096, guid: 93752539ebdde454390bfa3a374f98e9,
       type: 3}
     size: 3
-  - tag: Window
-    prefab: {fileID: 7926103239682908053, guid: 1410107b30376404fa26a8adf90b5265,
-      type: 3}
-    size: 105
