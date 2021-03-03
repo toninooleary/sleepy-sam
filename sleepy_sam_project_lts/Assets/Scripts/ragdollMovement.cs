@@ -13,7 +13,7 @@ public class RagdollMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = this.GetComponent<Rigidbody>();
-		thrust = 100f;
+		thrust = 25f;
 	}
 	
 	// Update is called once per frame
@@ -28,9 +28,10 @@ public class RagdollMovement : MonoBehaviour {
 				direction = (hit.point - gameObject.transform.position).normalized;
 				direction.z = 0;
 			}
-		Debug.Log("released");
-		rb.AddForce(direction * thrust, ForceMode.Impulse);
-		} 
+		}
+		else {
+			rb.AddForce(direction * thrust, ForceMode.Impulse);
+		}
 	}
 
 }
