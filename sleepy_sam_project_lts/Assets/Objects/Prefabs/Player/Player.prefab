@@ -585,12 +585,11 @@ GameObject:
   - component: {fileID: 1375147331010357293}
   - component: {fileID: 1375147331010524186}
   - component: {fileID: 1375147331010524180}
-  - component: {fileID: 1375147331010524183}
   - component: {fileID: 1375147331010524182}
   - component: {fileID: 1375147331010524176}
   m_Layer: 0
   m_Name: Head
-  m_TagString: movingBodyPart
+  m_TagString: standardBodyPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -642,20 +641,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shaker: {fileID: 0}
   deathParticles: {fileID: 1869498582, guid: 774cf7585478f914799cb20947a8f54e, type: 3}
---- !u!114 &1375147331010524183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375147331010524173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836353238ff225a4585cf95d5810be76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upThrust: 400
-  sideThrust: 0
 --- !u!144 &1375147331010524182
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -893,6 +878,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -971,6 +957,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1116,7 +1103,6 @@ GameObject:
   - component: {fileID: 1375147331010524190}
   - component: {fileID: 1375147331010524257}
   - component: {fileID: 1375147331010524256}
-  - component: {fileID: 1375147331010524259}
   m_Layer: 0
   m_Name: Abs
   m_TagString: movingBodyPart
@@ -1185,20 +1171,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shaker: {fileID: 0}
   deathParticles: {fileID: 1869498582, guid: 774cf7585478f914799cb20947a8f54e, type: 3}
---- !u!114 &1375147331010524259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375147331010524185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836353238ff225a4585cf95d5810be76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upThrust: 400
-  sideThrust: 400
 --- !u!1 &1375147331010524187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1247,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1421,8 +1394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836353238ff225a4585cf95d5810be76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upThrust: 400
-  sideThrust: 400
+  referencePlane: {fileID: 0}
 --- !u!144 &1375147331010524258
 CharacterJoint:
   m_ObjectHideFlags: 0

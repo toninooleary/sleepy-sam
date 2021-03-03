@@ -1,39 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class RagdollMovement : MonoBehaviour {
 	
 	private Rigidbody rb;
-	public float upThrust;
-	public float sideThrust;
-	//private int counter = 0;
-	private int i;
-	
+	private float thrust;
+	private Vector3 direction;
+
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody>();
+		rb = this.GetComponent<Rigidbody>();
+		thrust = 100f;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Input.GetKey("w")) {
-			rb.AddForce(0,upThrust,0 * Time.deltaTime);
-		}
-
-		//counter++;
-
-		if (Input.GetKey("a")){
-			rb.AddForce(sideThrust,0,0 * Time.deltaTime);
-		}
-		else if (Input.GetKey("d")){
-			rb.AddForce(-sideThrust,0,0 * Time.deltaTime);
-		}	
-
-		// if(counter > 300){
-		// 	rb.AddForce(0, upThrust, 0 * Time.deltaTime);
-		// 	upThrust = upThrust + 0.0075f;	
-		// }
+		if (Input.GetMouseButton(0))
+		{
+			RaycastHit hit;
+			// 25f represents max distance
+			// layer stops the ray from hitting anything else
+			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 200.0f, LayerMask.GetMask("ReferencePlane")))
+			{
+				direction = (hit.point - gameObject.transform.position).normalized;
+				direction.z = 0;
+			}
+		Debug.Log("released");
+		rb.AddForce(direction * thrust, ForceMode.Impulse);
+		} 
 	}
 
 }
